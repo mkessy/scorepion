@@ -1,0 +1,311 @@
+{u'330616101': 'final',
+ u'330616103': 'in_game',
+ u'330616105': 'final',
+ u'330616109': 'final',
+ u'330616111': 'in_game',
+ u'330616113': 'in_game',
+ u'330616115': 'preview',
+ u'330616117': 'final',
+ u'330616118': 'final',
+ u'330616121': 'final',
+ u'330616123': 'in_game',
+ u'330616125': 'in_game',
+ u'330616127': 'in_game',
+ u'330616128': 'final',
+ u'330616130': 'final'}
+
+-----------------330616103---------------------------
+{'away_homeruns': [(u'Hafner', u'11')],
+ 'away_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'0', None, None],
+ 'away_record': u'(37-31, 18-18 away)',
+ 'away_score': (u'5', u'7', u'0'),
+ 'away_starter': [u'Sabathia', u' (6-5, 3.82 ERA)'],
+ 'away_team': u'Yankees',
+ 'current_batter': u'H. Kendrick',
+ 'current_batter_stats': u'1-2',
+ 'current_batting': u'Batting (LAA):',
+ 'current_fielding': u'Pitching (NYY):',
+ 'current_pitcher': u'C. Sabathia',
+ 'current_pitcher_stats': u'6.1 IP, 0 ER, 3 K',
+ 'game_note': u'None',
+ 'game_status': u'Bot 7th',
+ 'home_inning_score': [u'0', u'0', u'5', u'0', u'0', u'0', u'0', None, None],
+ 'home_record': u'(30-38, 17-18 home)',
+ 'home_score': (u'0', u'3', u'2'),
+ 'home_starter': [u'Weaver', u' (1-2, 4.41 ERA)'],
+ 'home_team': u'Angels',
+ 'last_play': u'Pitch 5: ball 2',
+ 'num_balls': 2,
+ 'num_outs': 1,
+ 'num_strikes': 2}
+
+
+-----------------330616115---------------------------
+{'away_record': u'(35-32, 14-21 away)',
+ 'away_starter': [u'Lincecum', u' (4-6, 4.70 ERA)'],
+ 'away_team': u'Giants',
+ 'game_note': u'None',
+ 'game_status': u'8:00 PM ET',
+ 'home_record': u'(40-28, 22-8 home)',
+ 'home_starter': [u'Teheran', u' (4-3, 3.62 ERA)'],
+ 'home_team': u'Braves'}
+
+
+-----------------330616101---------------------------
+{'away_inning_score': [u'0', u'0', u'3', u'0', u'2', u'0', u'1', u'0', u'X'],
+ 'away_record': u'(42-29, 21-15 away)',
+ 'away_starter': [u'Lester', u' (6-4, 4.37 ERA)'],
+ 'away_team': u'Red Sox',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'3', u'0', u'0'],
+ 'home_record': u'(40-30, 20-15 home)',
+ 'home_starter': [u'Gonzalez', u' (5-2, 3.75 ERA)'],
+ 'home_team': u'Orioles',
+ 'losing_pitcher': [u'Lester', u'(6-4) '],
+ 'saving_pitcher': [u'Johnson', u'(25)'],
+ 'winning_pitcher': [u'Gonzalez', u'(5-2) ']}
+
+
+-----------------330616117---------------------------
+{'away_inning_score': [u'0', u'1', u'2', u'0', u'0', u'2', u'0', u'0', u'X'],
+ 'away_record': u'(28-40, 12-20 away)',
+ 'away_starter': [u'Peralta', u' (4-8, 6.08 ERA)'],
+ 'away_team': u'Brewers',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'1', u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'0'],
+ 'home_record': u'(42-28, 24-12 home)',
+ 'home_starter': [u'Cueto', u' (4-0, 2.08 ERA)'],
+ 'home_team': u'Reds',
+ 'losing_pitcher': [u'Peralta', u'(4-8) '],
+ 'saving_pitcher': [u'Simon', u'(1)'],
+ 'winning_pitcher': [u'Cueto', u'(4-0) ']}
+
+
+-----------------330616111---------------------------
+{'away_inning_score': [u'0', u'0', u'0', u'2', u'0', None, None, None, None],
+ 'away_record': u'(31-38, 13-21 away)',
+ 'away_score': (u'2', u'7', u'0'),
+ 'away_starter': [u'Iwakuma', u' (7-1, 1.90 ERA)'],
+ 'away_team': u'Mariners',
+ 'current_batter': u'J. Jaso',
+ 'current_batter_stats': u'0-0, 2 BB',
+ 'current_batting': u'Batting (Oak):',
+ 'current_fielding': u'Pitching (Sea):',
+ 'current_pitcher': u'H. Iwakuma',
+ 'current_pitcher_stats': u'4.0 IP, 2 ER, 3 K',
+ 'game_note': u'None',
+ 'game_status': u'Bot 5th',
+ 'home_inning_score': [u'0', u'2', u'0', u'0', u'0', None, None, None, None],
+ 'home_record': u'(41-29, 21-12 home)',
+ 'home_score': (u'2', u'6', u'0'),
+ 'home_starter': [u'Colon', u' (8-2, 2.95 ERA)'],
+ 'home_team': u'Athletics',
+ 'last_play': u'Pitch 1: ball 1',
+ 'num_balls': 1,
+ 'num_outs': 0,
+ 'num_strikes': 0}
+
+
+-----------------330616105---------------------------
+{'away_inning_score': [u'0', u'0', u'0', u'1', u'0', u'0', u'0', u'1', u'X'],
+ 'away_record': u'(34-34, 16-21 away)',
+ 'away_starter': [u'Strasburg', u' (3-6, 2.50 ERA)'],
+ 'away_team': u'Nationals',
+ 'game_note': u'Interleague Game',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'0'],
+ 'home_record': u'(34-34, 20-13 home)',
+ 'home_starter': [u'Kluber', u' (5-4, 3.58 ERA)'],
+ 'home_team': u'Indians',
+ 'losing_pitcher': [u'Strasburg', u'(3-6) '],
+ 'saving_pitcher': [u'Pestano', u'(1)'],
+ 'winning_pitcher': [u'Kluber', u'(5-4) ']}
+
+
+-----------------330616113---------------------------
+{'away_homeruns': [(u'Lind', u'8), '),
+                   (u'Rasmus', u'13), '),
+                   (u'Arencibia', u'14')],
+ 'away_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'0', None],
+ 'away_record': u'(31-36, 15-19 away)',
+ 'away_score': (u'7', u'12', u'0'),
+ 'away_starter': [u'Wang', u' (0-0, 3.14 ERA)'],
+ 'away_team': u'Blue Jays',
+ 'current_batter': u'M. Kawasaki',
+ 'current_batter_stats': u'0-0',
+ 'current_batting': u'Batting (Tor):',
+ 'current_fielding': u'Pitching (Tex):',
+ 'current_pitcher': u'J. Nathan',
+ 'current_pitcher_stats': u'0.1 IP, 0 ER, 0 K',
+ 'game_note': u'None',
+ 'game_status': u'Top 9th',
+ 'home_inning_score': [u'0', u'2', u'0', u'1', u'0', u'0', u'4', u'0', u'0'],
+ 'home_record': u'(38-30, 19-13 home)',
+ 'home_score': (u'0', u'7', u'0'),
+ 'home_starter': [u'Holland', u' (5-3, 3.30 ERA)'],
+ 'home_team': u'Rangers',
+ 'last_play': u'Pitch 3: strike 2 (foul)',
+ 'num_balls': 1,
+ 'num_outs': 1,
+ 'num_strikes': 2}
+
+
+-----------------330616125---------------------------
+{'away_inning_score': [u'0', u'0', u'1', u'0', u'0', u'0', None, None, None],
+ 'away_record': u'(37-31, 20-17 away)',
+ 'away_score': (u'1', u'5', u'0'),
+ 'away_starter': [u'Kennedy', u' (3-4, 5.25 ERA)'],
+ 'away_team': u'Diamondbacks',
+ 'current_batter': u'E. Cabrera',
+ 'current_batter_stats': u'1-2',
+ 'current_batting': u'Batting (SD):',
+ 'current_fielding': u'Pitching (Ari):',
+ 'current_pitcher': u'I. Kennedy',
+ 'current_pitcher_stats': u'5.1 IP, 1 ER, 6 K',
+ 'game_note': u'None',
+ 'game_status': u'Bot 6th',
+ 'home_homeruns': [],
+ 'home_inning_score': [u'0', u'0', u'1', u'0', u'0', u'0', None, None, None],
+ 'home_record': u'(34-34, 21-14 home)',
+ 'home_score': (u'1', u'2', u'0'),
+ 'home_starter': [u'Richard', u' (1-5, 7.28 ERA)'],
+ 'home_team': u'Padres',
+ 'last_play': u'Pitch 3: ball 2',
+ 'num_balls': 2,
+ 'num_outs': 1,
+ 'num_strikes': 1}
+
+
+-----------------330616121---------------------------
+{'away_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'4'],
+ 'away_record': u'(28-39, 13-18 away)',
+ 'away_starter': [u'Garza', u' (1-1, 4.98 ERA)'],
+ 'away_team': u'Cubs',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'1', u'0', u'0', u'0', u'2', u'0', u'0', u'0', u'0'],
+ 'home_record': u'(25-39, 14-23 home)',
+ 'home_starter': [u'Hefner', u' (1-6, 3.96 ERA)'],
+ 'home_team': u'Mets',
+ 'losing_pitcher': [u'Marmol', u'(2-4) '],
+ 'winning_pitcher': [u'Parnell', u'(5-3) ']}
+
+
+-----------------330616109---------------------------
+{'away_inning_score': [u'0', u'0', u'0', u'0', u'0', u'1', u'0', u'1', u'0'],
+ 'away_record': u'(38-29, 16-19 away)',
+ 'away_starter': [u'Fister', u' (6-4, 3.21 ERA)'],
+ 'away_team': u'Tigers',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'2', u'0', u'0', u'2', u'0', u'0', u'0', u'0', u'1'],
+ 'home_record': u'(30-36, 16-17 home)',
+ 'home_starter': [u'Walters', u' (2-2, 3.23 ERA)'],
+ 'home_team': u'Twins',
+ 'losing_pitcher': [u'Walters', u'(2-2) '],
+ 'saving_pitcher': [u'Benoit', u'(4)'],
+ 'winning_pitcher': [u'Fister', u'(6-4) ']}
+
+
+-----------------330616118---------------------------
+{'away_inning_score': [u'0', u'3', u'0', u'0', u'0', u'0', u'2', u'0', u'X'],
+ 'away_record': u'(28-38, 12-24 away)',
+ 'away_starter': [u'Santiago', u' (2-5, 3.30 ERA)'],
+ 'away_team': u'White Sox',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'0', u'0', u'0', u'0', u'0', u'1', u'1', u'0', u'2'],
+ 'home_record': u'(26-44, 13-23 home)',
+ 'home_starter': [u'Keuchel', u' (4-3, 4.23 ERA)'],
+ 'home_team': u'Astros',
+ 'losing_pitcher': [u'Santiago', u'(2-5) '],
+ 'saving_pitcher': [u'Veras', u'(14)'],
+ 'winning_pitcher': [u'Keuchel', u'(4-3) ']}
+
+
+-----------------330616130---------------------------
+{'away_inning_score': [u'2', u'0', u'0', u'0', u'0', u'0', u'0', u'0', u'1'],
+ 'away_record': u'(33-34, 16-18 away)',
+ 'away_starter': [u'Davis', u' (4-5, 5.18 ERA)'],
+ 'away_team': u'Royals',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'1', u'0', u'0', u'0', u'1', u'2', u'0', u'1', u'0'],
+ 'home_record': u'(36-33, 21-16 home)',
+ 'home_starter': [u'Hernandez', u' (4-7, 5.02 ERA)'],
+ 'home_team': u'Rays',
+ 'losing_pitcher': [u'Hernandez', u'(4-7) '],
+ 'saving_pitcher': [u'Holland', u'(14)'],
+ 'winning_pitcher': [u'Davis', u'(4-5) ']}
+
+
+-----------------330616123---------------------------
+{'away_inning_score': [u'2', u'0', u'0', u'0', u'3', u'1', u'0', None, None],
+ 'away_record': u'(29-38, 10-18 away)',
+ 'away_score': (u'3', u'7', u'0'),
+ 'away_starter': [u'Greinke', u' (3-1, 4.22 ERA)'],
+ 'away_team': u'Dodgers',
+ 'current_batter': u'A. Gonzalez',
+ 'current_batter_stats': u'1-3,  R',
+ 'current_batting': u'Batting (LAD):',
+ 'current_fielding': u'Pitching (Pit):',
+ 'current_pitcher': u'M. Melancon',
+ 'current_pitcher_stats': u'0.1 IP, 0 ER, 0 K',
+ 'game_note': u'None',
+ 'game_status': u'Top 8th',
+ 'home_homeruns': [],
+ 'home_inning_score': [u'0', u'1', u'0', u'1', u'0', u'1', u'0', u'0', None],
+ 'home_record': u'(40-28, 24-13 home)',
+ 'home_score': (u'6', u'10', u'0'),
+ 'home_starter': [u'Cole', u' (1-0, 3.75 ERA)'],
+ 'home_team': u'Pirates',
+ 'last_play': u'Pitch 1: strike 1 (looking)',
+ 'num_balls': 0,
+ 'num_outs': 1,
+ 'num_strikes': 1}
+
+
+-----------------330616127---------------------------
+{'away_inning_score': [u'0', u'1', u'0', u'0', u'0', u'0', u'0', None, None],
+ 'away_record': u'(33-36, 17-21 away)',
+ 'away_score': (u'0', u'3', u'0'),
+ 'away_starter': [u'Hamels', u' (2-9, 4.26 ERA)'],
+ 'away_team': u'Phillies',
+ 'current_batter': u'M. Cuddyer',
+ 'current_batter_stats': u'0-2',
+ 'current_batting': u'Batting (Col):',
+ 'current_fielding': u'Pitching (Phi):',
+ 'current_pitcher': u'C. Hamels',
+ 'current_pitcher_stats': u'6.0 IP, 1 ER, 7 K',
+ 'game_note': u'None',
+ 'game_status': u'Bot 7th',
+ 'home_homeruns': [],
+ 'home_inning_score': [u'0', u'0', u'0', u'0', u'0', u'0', u'0', None, None],
+ 'home_record': u'(36-33, 22-17 home)',
+ 'home_score': (u'1', u'3', u'0'),
+ 'home_starter': [u'Chacin', u' (4-3, 4.12 ERA)'],
+ 'home_team': u'Rockies',
+ 'last_play': u'Pitch 3: ball 1',
+ 'num_balls': 1,
+ 'num_outs': 0,
+ 'num_strikes': 2}
+
+
+-----------------330616128---------------------------
+{'away_inning_score': [u'2', u'0', u'0', u'2', u'2', u'0', u'1', u'0', u'X'],
+ 'away_record': u'(44-25, 25-13 away)',
+ 'away_starter': [u'Lyons', u' (2-3, 4.65 ERA)'],
+ 'away_team': u'Cardinals',
+ 'game_note': u'None',
+ 'game_status': u'Final',
+ 'home_inning_score': [u'0', u'0', u'1', u'0', u'0', u'0', u'0', u'0', u'1'],
+ 'home_record': u'(21-47, 13-23 home)',
+ 'home_starter': [u'Nolasco', u' (4-7, 3.61 ERA)'],
+ 'home_team': u'Marlins',
+ 'losing_pitcher': [u'Lyons', u'(2-3) '],
+ 'saving_pitcher': [u'Cishek', u'(9)'],
+ 'winning_pitcher': [u'Nolasco', u'(4-7) ']}
+
+
