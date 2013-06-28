@@ -116,6 +116,74 @@ def get_game_score(game_id):
 
     return game_score
 
+
+def get_in_game_details(game_id):
+    """Details for games that are 'in_game'"""
+
+    in_game_details = {}
+    reabr = re.compile(r'\((?P<abr>[a-zA-Z]{3})\)')
+    pitching = parsemlb.pull_current_pitching(MLB_SOUP, game_id)
+    batting = parsemlb.pull_current_batting(MLB_SOUP, game_id)
+    in_game_details['fielding_team'] = reabr.search(pitching).group('abr')
+    in_game_details['batting_team'] = reabr.search(batting).group('abr')
+
+    in_game_details['current_batter'] = {'player':parsemlb.pull_current_batter(MLB_SOUP, game_id),
+                            'game_record':parsemlb.pull_current_batter_stats(MLB_SOUP, game_id)}
+
+    rePitcher = re.compile(r'(?P<IP>[0-9][0-9]*.[0-9]+) IP, (?P<ER>[0-9]+) ER, (?P<K>[0-9]*[0-9]+) K')
+    stats = rePitcher.search(parsemlb.pull_current_pitcher_stats(MLB_SOUP, game_id))
+
+    in_game_details['current_pitcher'] = {'player':parsemlb.pull_current_pitcher(MLB_SOUP, game_id),
+                                          'IP':stats.group('IP'),
+                                          'ER':stats.group('ER'),
+                                          'K':stats.group('K')}
+
+    in_game_details['num_strikes'] = parsemlb.pull_strike_count(MLB_SOUP, game_id)
+    in_game_details['num_balls'] = parsemlb.pull_ball_count(MLB_SOUP, game_id)
+    in_game_details['num_outs'] = parsemlb.pull_out_count(MLB_SOUP, game_id)
+    in_game_details['last_play'] = parsemlb.pull_last_play(MLB_SOUP, game_id)
+
+    return in_game_details
+
+
+
+@return_json
+def get_game_details(game_id):
+    """Returns all available game details. Details available depends on the game state.
+    UPDATE DOC TO INCLUDE DETAILS AVAILABLE FOR EACH GAME STATE"""
+
+    #all games regardless of state will contain the details returned by the
+    #get_game_details method
+
+    #need to encode from JSON first
+    game_details = json.loads(get_game_score(game_id))
+
+    game_state = game_details['state']
+
+    #starting pitchers
+    home_starter, away_starter = parsemlb.pull_team_starters(MLB_SOUP, game_id)
+    rePitcher = re.compile(r'(?P<rec>[0-9]+-[0-9]+), (?P<ERA>[0-9]*.[0-9][0-9])')
+    stats = rePitcher.search(home_starter[1])
+    print home_starter[0]
+    print home_starter[1]
+    game_details['home_starter'] = {'player':home_starter[0],
+                                    'record':stats.group('rec'),
+                                    'ERA':stats.group('ERA')}
+
+    stats = rePitcher.search(away_starter[1])
+    game_details['away_starter'] = {'player':away_starter[0],
+                                    'record':stats.group('rec'),
+                                    'ERA':stats.group('ERA')}
+
+    game_details['game_note'] =  parsemlb.pull_game_note(MLB_SOUP,game_id)
+
+    if game_state == 'in_game':
+        game_details = dict(game_details.items() + get_in_game_details(game_id).items())
+
+    return game_details
+
+
+
 #def pull_event_data(mlbSoup,  gameID):
 #    """
 #        insert doc string
@@ -161,7 +229,7 @@ def main():
     for game_id in event_list.keys():
         print game_id
         print
-        print get_game_score(game_id)
+        print get_game_details(game_id)
 
 
 
